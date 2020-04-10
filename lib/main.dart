@@ -22,10 +22,11 @@ class MyApp extends StatelessWidget {
             isThreeLine: true,
           ),
         ),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-        floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.add),
-          onPressed: (null),
+        floatingActionButton: FloatingActionButton.extended(
+          onPressed: () {},
+          label: Text('Add News'),
+          icon: Icon(Icons.add),
+          backgroundColor: Colors.blue,
         ),
       ),
     );
