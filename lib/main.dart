@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './widgets/add_news.dart';
+import './widgets/list_news.dart';
 
 void main() => runApp(new MyApp());
 
@@ -14,15 +15,10 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(title: Text('news')),
-        body: Card(
-          child: ListTile(
-            leading: Image.asset('assets/images/controller.png'),
-            title: Text('best videogames to play in cuarentine'),
-            subtitle: Text('Play and have in fun.'),
-            trailing: Icon(Icons.more_vert),
-            isThreeLine: true,
-          ),
-        ),
+        body: 
+          NewsList(),
+        
+      floatingActionButton: AddNewsButton(),
       ),
     );
   }
