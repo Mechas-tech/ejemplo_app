@@ -15,10 +15,44 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(title: Text('news')),
-        body: 
-          NewsList(),
-        
-      floatingActionButton: AddNewsButton(),
+        body: Container(
+          margin: EdgeInsets.all(20),
+          padding: EdgeInsets.all(20),
+          color: Colors.yellow,
+          child: ListView(
+            children: <Widget>[
+              Card(
+                color: Colors.red,
+                child: ListTile(
+                  leading: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.title),
+                  ),
+                  title: Text('holis'),
+                ),
+              ),
+              ListTile(
+                leading: IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.title),
+                ),
+                title: Text('holis'),
+              ),
+              Row(
+                children: <Widget>[
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.title),
+                  ),
+                  Text('holis')
+                ],
+              ),
+              NewsList('best videogames to play in cuarentine'),
+              NewsList('askdja'),
+            ],
+          ),
+        ),
+        floatingActionButton: AddNewsButton(),
       ),
     );
   }
