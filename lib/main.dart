@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text('news')),
+        appBar: AppBar(title: Text('news'),),
         body: 
           NewsList(),
         
