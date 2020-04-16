@@ -14,11 +14,34 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text('news'),),
-        body: 
-          NewsList(),
-        
-      floatingActionButton: AddNewsButton(),
+        appBar: AppBar(
+          title: Text('news'),
+        ),
+        body: ListView(
+          children: <Widget>[
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+            NewsList('assets/images/controller.png',
+                'Best games to play in quarentine', 'Play and hae in fun'),
+          ],
+        ),
+        floatingActionButton: AddNewsButton(),
       ),
     );
   }
