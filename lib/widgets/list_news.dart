@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import './news_content.dart';
 
@@ -22,7 +21,7 @@ class _NewsListState extends State<NewsList> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (context) {
-                return NewsContent('author', 'content', 'image');
+                return NewsContent();
               },
             ),
           );

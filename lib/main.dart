@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './widgets/add_news.dart';
 import './widgets/list_news.dart';
 
+
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -20,25 +21,25 @@ class MyApp extends StatelessWidget {
         body: ListView(
           children: <Widget>[
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
             NewsList('assets/images/controller.png',
-                'Best games to play in quarentine', 'Play and hae in fun'),
+                'Best games to play in quarentine', 'Play and have in fun'),
           ],
         ),
         floatingActionButton: AddNewsButton(),
